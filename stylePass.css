@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-image: url("password.jpg");
+    background-size: cover;
+    font-family: 'Inter';
+    color: white;
+}
+
+#container {
+    width:450px;
+    height: 450px;
+    background-color: #192936;
+    border: solid 5px #59C3DF;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px white;
+    margin: 30px auto;
+}
+
+#up-line {
+margin: 100px 30px 30px 30px;
+border-bottom: solid 2px #495C68;
+}
+
+h1 {
+font-family: 'Karla';
+margin: 0;
+line-height: 27px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+span {
+color: #59C3DF;
+}
+
+
+
+button {
+    margin: 30px 0;
+    padding: 6px 0;
+    width: 180px;
+    background-color: #F18411;
+    color: white;
+    border-radius: 3px;
+    border: none;
+
+}
+
+input{
+	width: 40px;
+}
+
+#down-line {
+margin: 30px;
+display: flex;
+justify-content: space-between;
+}
+
+#pass1-el, #pass2-el {
+    background-color: #495C68;
+    color:  #59C3DF;
+    border: none;
+    border-radius: 3px;
+    width: 180px;
+    height: 28px;
+    text-align: center;
+	padding-top: 10px;
+}
